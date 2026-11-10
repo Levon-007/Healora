@@ -18,8 +18,10 @@ import { FaCheckCircle } from "react-icons/fa";
 
 import Servicebox from '../../Common Design/Servicebox';
 import AppointmentButton from '../../Common Design/AppointmentButton';
+import { useNavigate } from 'react-router-dom';
 
 export default function Service() {
+    const navigate = useNavigate();
     return (
         <div className='servicebg'>
             <div className='background2 '>
@@ -95,7 +97,7 @@ export default function Service() {
                             <p><FaCheckCircle /> State-of-the-Art Technology</p>
                             <p><FaCheckCircle /> Personalized Treatment Plans</p>
                             <p><FaCheckCircle /> 24/7 Emergency Care</p>
-                            <div className='d-flex'><AppointmentButton content={"Book Appointment"}/></div>
+                            <div onClick={() => navigate('/appointment')} style={{ display: 'inline-block', cursor: 'pointer'}} className='d-flex'><AppointmentButton  content={"Book Appointment"}/></div>
 
                         </Col>
                         <Col md={6} >

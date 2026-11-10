@@ -13,9 +13,11 @@ import { FaUserDoctor } from "react-icons/fa6";
 import Accordion from 'react-bootstrap/Accordion';
 import Healorabanner from "../../assets/healora-banner.jpg"
 import Homeabout from './Homeabout';
+import { useNavigate } from 'react-router-dom';
 
 
 export default function Home() {
+    const navigate = useNavigate();
     return (
 
         <div className='background'>
@@ -33,7 +35,7 @@ export default function Home() {
                             <h2 className='homeintro'>Healthier <span>Tomorrow.</span> </h2>
                             <p className='homeintro'>We are committed to providing compassionate, advanced
                                 and personalized healthcare services for a healthier community.</p>
-                            <div className='btns'><AppointmentButton content={"Appointment"} />
+                            <div onClick={() => navigate('/appointment')} style={{ display: 'inline-block', cursor: 'pointer'}} className='btns' ><AppointmentButton  content={"Appointment"}  />
                                 {/* <Button className='learnmorebtn' variant="outline">Learn More  </Button> */}
                             </div>
                         </Col>
@@ -117,7 +119,7 @@ export default function Home() {
                     </Row>
                 </Container>
             </div>
-            <Homeabout content="" className="d-none d-md-block"/>
+            {/* <Homeabout content="" className="d-none d-md-block"/> */}
         </div>
 
     )

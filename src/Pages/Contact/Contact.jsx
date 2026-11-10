@@ -61,14 +61,14 @@ export default function Contact() {
                             <div className='contactsec '>
                             <Row>
                                 <Col md={6}>
-                                    <h3 className='contactinfoh3 '>Get in Touch</h3>
-                                    <h4 className='contactinfo py-2'><FaPhoneAlt style={{ color: "#22d3f4" ,marginRight:"15px"}} /> +91 44 1234 5678</h4>
-                                    <p className='contactp1 mx-4'> Mon - Sat: 8:00 AM - 8:00 PM</p>
-                                    <h4 className='contactinfo py-2'><MdOutlineEmail style={{ color: "#22d3f4",marginRight:"15px" }} /> info@healora.com</h4>
-                                    <p className='contactp1 mx-4'>We replay within 24 hours</p>
-                                    <h4 className='contactinfo py-2' ><FaLocationDot style={{ color: "#22d3f4",marginRight:"15px" }} /> 123 Health Care Road,</h4>
-                                    <p className='contactp1 mx-4'>Chennai, Tamil Nadu - 600001</p>
-                                    <h4 className='contactinfo1 my-4'>Follow Us</h4>
+                                    <h3 className='contactinfoh3 text-light '>Get in Touch</h3>
+                                    <h4 className='contactinfo py-2 text-light'><FaPhoneAlt style={{ color: "#22d3f4" ,marginRight:"15px"}} /> +91 44 1234 5678</h4>
+                                    <p className='contactp1 mx-4 text-light'> Mon - Sat: 8:00 AM - 8:00 PM</p>
+                                    <h4 className='contactinfo py-2 text-light'><MdOutlineEmail style={{ color: "#22d3f4",marginRight:"15px" }} /> info@healora.com</h4>
+                                    <p className='contactp1 mx-4 text-light'>We replay within 24 hours</p>
+                                    <h4 className='contactinfo py-2 text-light' ><FaLocationDot style={{ color: "#22d3f4",marginRight:"15px" }} /> 123 Health Care Road,</h4>
+                                    <p className='contactp1 mx-4 text-light'>Chennai, Tamil Nadu - 600001</p>
+                                    <h4 className='contactinfo1 my-4 text-light'>Follow Us</h4>
                                     <span className='socialmedia'><FaFacebookF /> </span>
                                     <span className='socialmedia'><FaInstagram /> </span>
                                     <span className='socialmedia'> <FaLinkedinIn /></span>
@@ -85,11 +85,11 @@ export default function Contact() {
                         <Col md={1}></Col>
                         <Col md={5}>
                             <div className='contactform'>
-                            <h3 className='contactinfoh3'>Send Us a Message</h3>
+                            <h3 className='contactinfoh3 text-light'>Send Us a Message</h3>
                                 <Form noValidate validated={validated} onSubmit={handleSubmit}>
                                     <Row className="mb-3">
                                         <Form.Group as={Col} md="6" controlId="validationCustom01">
-                                            <Form.Label>Your Name</Form.Label>
+                                            <Form.Label className='text-light'>Your Name</Form.Label>
                                             <Form.Control
                                                 required
                                                 type="text"
@@ -99,7 +99,7 @@ export default function Contact() {
                                             <Form.Control.Feedback></Form.Control.Feedback>
                                         </Form.Group>
                                         <Form.Group as={Col} md="6" controlId="validationCustomUsername">
-                                            <Form.Label>Your Email</Form.Label>
+                                            <Form.Label className='text-light'>Your Email</Form.Label>
                                             <InputGroup hasValidation>
                                                 <Form.Control
                                                     type="email"
@@ -114,7 +114,7 @@ export default function Contact() {
                                     </Row>
                                     <Row className="mb-3">
                                         <Form.Group as={Col} md="12">
-                                            <Form.Label>Subject</Form.Label>
+                                            <Form.Label className='text-light'>Subject</Form.Label>
                                             <Form.Select aria-label="Default select example" required
                                             >
                                                 <option>Select Subject</option>
@@ -141,8 +141,7 @@ export default function Contact() {
                                             <Form.Control as="textarea" rows={3} placeholder="Your Message *" required />
                                         </Form.Group>
                                     </Row>
-
-                                    <Button type="submit">Submit form</Button>
+                                    <Button type="submit" className='btn btn-danger'>Submit form</Button>
                                 </Form>
                             </div>
                         </Col>

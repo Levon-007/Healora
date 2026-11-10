@@ -37,12 +37,12 @@
     margin:50px;
 } */
 .appointmentform{
-    background-color: rgb(192, 225, 255) ;
+    background-color: #12304A;
     padding: 30px;
     border-radius: 10px;
 }
 .appointmentdetails{
-     background-color: rgb(192, 225, 255) ;
+     background-color: #12304A;
      padding: 30px;
      border-radius: 10px;
 }
@@ -79,7 +79,7 @@
     font-weight: 400;
 }
 .appointmentform{
-    background-color: rgb(192, 225, 255) ;
+    background-color: #12304A;
     padding: 30px;
     border-radius: 10px;
 }

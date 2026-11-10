@@ -70,10 +70,10 @@ export default function About() {
                             <p className='py-2 '> With expert doctors, modern facilities and a patient-first approach,we are committed to your well-being at every step.</p>
                             <Row className='aboutbox'>
                                 <Col md={8} className='d-md-flex d-none'>
-                                    <Homecard title={<GiHeartPlus />} content={"Advanced Medical Care"} />
-                                    <Homecard title={<FaUserDoctor />} content={"Expert Doctors"} />
-                                    <Homecard title={<FaBed />} content={"Modern Facilities"} />
-                                    <Homecard title={<FiHeart />} content={"Compassionate Support"} />
+                                    <Homecard title={<GiHeartPlus style={{color:"#22d3f4"}}/>} content={"Advanced Medical Care"} />
+                                    <Homecard title={<FaUserDoctor style={{color:"#22d3f4"}}/>} content={"Expert Doctors"} />
+                                    <Homecard title={<FaBed style={{color:"#22d3f4"}}/>} content={"Modern Facilities"} />
+                                    <Homecard title={<FiHeart style={{color:"#22d3f4"}}/>} content={"Compassionate Support"} />
                                 </Col>
                             </Row>
                         </Col>

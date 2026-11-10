@@ -52,11 +52,11 @@ export default function Appointment() {
 
                         <Col md={6}>
                             <div className='appointmentform my-3 my-md-0'>
-                                <h5>Appointment Form</h5>
+                                <h5 className='text-light'>Appointment Form</h5>
                                 <Form noValidate validated={validated} onSubmit={handleSubmit}>
                                     <Row className="mb-3">
                                         <Form.Group as={Col} md="6" controlId="validationCustom01">
-                                            <Form.Label>Full Name *</Form.Label>
+                                            <Form.Label className='text-light'>Full Name *</Form.Label>
                                             <Form.Control
                                                 required
                                                 type="text"
@@ -66,7 +66,7 @@ export default function Appointment() {
                                             <Form.Control.Feedback></Form.Control.Feedback>
                                         </Form.Group>
                                         <Form.Group as={Col} md="6" controlId="validationCustomUsername">
-                                            <Form.Label>Mobile Number *</Form.Label>
+                                            <Form.Label className='text-light'>Mobile Number *</Form.Label>
                                             <InputGroup hasValidation>
                                                 <Form.Control
                                                     type="tel"
@@ -81,7 +81,7 @@ export default function Appointment() {
                                     </Row>
                                     <Row className="mb-3">
                                         <Form.Group as={Col} md="6">
-                                            <Form.Label>Select Department *</Form.Label>
+                                            <Form.Label className='text-light'>Select Department *</Form.Label>
                                             <Form.Select aria-label="Default select example" required
                                             >
                                                 <option>Choose Department</option>
@@ -101,7 +101,7 @@ export default function Appointment() {
                                             </Form.Control.Feedback>
                                         </Form.Group>
                                         <Form.Group as={Col} md="6" controlId="validationCustom01">
-                                            <Form.Label>Preferred Date *</Form.Label>
+                                            <Form.Label className='text-light'>Preferred Date *</Form.Label>
                                             <Form.Control
                                                 required
                                                 type="date"
@@ -115,17 +115,17 @@ export default function Appointment() {
                                         </Form.Group>
                                     </Row>
 
-                                    <Button type="submit">Book Appointment</Button>
+                                    <Button type="submit" className='btn btn-danger'>Book Appointment</Button>
                                 </Form>
                             </div>
                         </Col>
                         <Col md={6}>
                              <div className='appointmentdetails my-4 my-md-0'>
-                            <h5>Why choose Healora?</h5>
-                            <p className='appointmentsecp'><FaCheckCircle /> Experienced & Compassionate Doctors</p>
-                            <p className='appointmentsecp'><FaCheckCircle /> State-of-the-Art Technology</p>
-                            <p className='appointmentsecp'><FaCheckCircle /> Personalized Treatment Plans</p>
-                            <p className='appointmentsecp'><FaCheckCircle /> 24/7 Emergency Care</p>
+                            <h5 className='text-light'>Why choose Healora?</h5>
+                            <p className='appointmentsecp text-light'><FaCheckCircle style={{color:"#22d3f4",marginRight:'5px'}}/> Experienced & Compassionate Doctors</p>
+                            <p className='appointmentsecp text-light'><FaCheckCircle style={{color:"#22d3f4",marginRight:'5px'}}/> State-of-the-Art Technology</p>
+                            <p className='appointmentsecp text-light'><FaCheckCircle style={{color:"#22d3f4",marginRight:'5px'}}/> Personalized Treatment Plans</p>
+                            <p className='appointmentsecp text-light'><FaCheckCircle style={{color:"#22d3f4",marginRight:'5px'}}/> 24/7 Emergency Care</p>
                              <Col md={12}>
                                 <img src={heartrate} style={{ width: '600px', height: '100px' }} className='w-100' alt="" />
                             </Col>

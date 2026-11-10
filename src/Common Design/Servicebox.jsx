@@ -5,13 +5,13 @@ import Card from 'react-bootstrap/Card';
 export default function Servicebox({title,content1,content2}) {
     return (
         <div className='servicebox'  style={{margin:'10px',padding:'10px'}}>
-            <Card style={{  width: '350px' , height:'170px',margin:'10px' ,textAlign:'center',borderRadius:'10px',backgroundColor:'aliceblue'}} className='w-100 m-0'>
+            <Card style={{  width: '350px' , height:'170px',margin:'10px' ,textAlign:'center',borderRadius:'10px',backgroundColor:'#12304A'}} className='w-100 m-0'>
                 <Card.Body>
                     <Card.Title style={{textAlign:'center',fontSize:'36px'}}>{title}</Card.Title>
-                    <Card.Text style={{textAlign:'center',width:'100%',fontSize:'22px'}}>
+                    <Card.Text style={{textAlign:'center',width:'100%',fontSize:'22px',color:'white'}}>
                         {content1}
                     </Card.Text>
-                    <Card.Text style={{textAlign:'center',width:'100%',fontSize:'15px'}}>
+                    <Card.Text style={{textAlign:'center',width:'100%',fontSize:'15px',color:'white'}}>
                         {content2}
                     </Card.Text>
                 </Card.Body>

@@ -12,9 +12,10 @@ return ( <Navbar expand="lg" className="custom-nav w-100"> <Container fluid="lg"
 
 
             {/* Logo on the left */}
-            <Navbar.Brand href="#home" className="healora-brand">
+            <Navbar.Brand as={Link} to="/" href="#home" className="healora-brand">
                 <img
                     src={healoraLogo}
+                    // style={{width:'60px',height:'60px'}}
                     alt="Healora Logo"
                     className="healora-logo"
                 />
