@@ -1,0 +1,110 @@
+.background3{
+    background-image: url("../../assets/contactbanner.jpg"),url("../../assets/background.jpg");
+    background-repeat: no-repeat,no-repeat;
+    background-size: 115vh 60vh,110vh;
+    background-color: #97d3ef5a;
+     background-blend-mode: multiply !important;
+     /* box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; */
+    background-position: 110vh,0vh;
+    height:400px ;
+    width:100%;
+   
+
+}
+.contacthead{
+    margin-top:20px;
+    font-size: 44px;
+    font-weight: 500 !important;
+}
+.contacth4{
+    margin-top:75px !important;
+    font-size: 28px !important;
+    font-weight: 500;
+}
+.contactp{
+    margin-top:20px !important;
+    font-size: 16px;
+    padding: 2px;
+    font-weight: 400;
+}
+.contactinfo{
+    color: black !important;
+}
+.contactinfo1{
+    font-size: 23px !important;
+}
+/* .contactinfoh3{
+    margin: 30px 0px 20px;
+} */
+/* .contact1{
+   margin:50px;
+} */
+.contactsec{
+   /* background-color: aqua;  */
+   /* padding: 20px 45px; */
+   border-radius: 10px;
+   
+}
+.contactinfo{
+    
+    font-weight: 450 !important;
+}
+.contactp1{
+    font-size: 14px;
+}
+.contact1{
+    background-color: rgb(192, 225, 255) ;
+    padding: 30px;
+    border-radius:10px ;
+}
+.contactbg{
+    background-color: #F4F9FD !important;
+}
+@media (max-width:480px) {
+  
+   .background3{
+    background-image: url("../../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: center;
+    background-color: #97d3ef5a;
+    height: auto;
+    background-position:bottom;
+   }
+   .contacthead{
+    font-size: 30px;
+    font-weight: 450 !important;
+}
+.contacth4{
+    margin-top:30px !important;
+    font-size: 16px !important;
+    font-weight: 500;
+}
+.contactp{
+    margin-top:20px !important;
+    font-size: 15px;
+    padding: 2px;
+    font-weight: 400;
+}
+.contactinfoh3{
+    padding:0px 0px 25px ;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.contactinfo{
+    padding: 10px;
+}
+.contactform{
+    margin:50px 0px 0px;
+}
+.contactimg{
+    /* border-radius: 10px !important; */
+    display: none;
+}
+.contact1{
+    background-color:rgb(192, 225, 255) ;
+    padding: 20px 0px;
+    margin: 15px;
+    border-radius:10px ;
+}
+}

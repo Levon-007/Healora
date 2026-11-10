@@ -1,0 +1,58 @@
+.background2{
+    background-image: url("../../assets/servicebanner.jpg"),url("../../assets/background.jpg");
+    background-repeat: no-repeat,no-repeat;
+    background-size: 115vh 60vh,110vh;
+    background-color: #576f863d;
+     background-blend-mode: multiply !important;
+     /* box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; */
+    background-position: 110vh,0vh;
+    height:400px;
+    width:100%;
+   
+
+}
+.servicebg{
+    background-color: #F4F9FD !important;
+}
+.serviceh2{
+    margin-top:20px;
+    font-size: 42px;
+    font-weight: 500 !important;
+}
+.serviceh4{
+    margin-top:75px !important;
+    font-size: 26px !important;
+    font-weight: 500;
+}
+.servicep{
+    margin-top:20px !important;
+    font-size: 16px;
+    padding: 2px;
+    font-weight: 400;
+}
+@media (max-width:480px) {
+  
+   .background2{
+     background-image: url("../../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: center;
+    background-color: #97d3ef5a;
+    height: auto;
+    background-position:bottom;
+   }
+   .serviceh2{
+    font-size: 30px;
+    font-weight: 450 !important;
+}
+.serviceh4{
+    margin-top:30px !important;
+    font-size: 16px !important;
+    font-weight: 500;
+}
+.servicep{
+    margin-top:20px !important;
+    font-size: 15px;
+    padding: 2px;
+    font-weight: 400;
+}
+}

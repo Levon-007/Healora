@@ -1,0 +1,29 @@
+Element	Color	Hex Code
+Primary	Medical Blue	#1976D2
+Secondary	Dark Navy	#12304A
+Accent	Teal	#20B2AA
+Background	Light Blue-White	#F4F9FD
+Cards	White	#FFFFFF
+Main Text	Dark Grey	#263238
+Secondary Text	Muted Grey	#607D8B
+Buttons Hover	Deep Blue	#125CA1
+
+
+Website Component	Recommended Color
+Navbar	#FFFFFF
+Navbar links	#263238
+Navbar hover	#1976D2
+Hero background	#F4F9FD
+Main headings	#12304A
+Primary buttons	#1976D2
+Button hover	#125CA1
+Section background	#FFFFFF
+Alternate section	#F4F9FD
+Department icons	#20B2AA
+Card borders	#E3EAF0
+Footer	#12304A
+Footer text	#FFFFFF
+
+.background{
+ background-color: #97d3ef5a !important;
+}

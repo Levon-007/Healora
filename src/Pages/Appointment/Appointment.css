@@ -1,0 +1,86 @@
+.background4{
+    background-image: url("../../assets/Appointmentbanner.jpg"),url("../../assets/background.jpg");
+    background-repeat: no-repeat,no-repeat;
+    background-size: 105vh 65vh,115vh;
+    background-color: #97d3ef5a !important;
+     background-blend-mode: multiply !important;
+     /* box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; */
+    background-position: 115vh,0vh;
+    height:400px ;
+    width:100%;
+   
+
+}
+.appointmenthead{
+    margin-top:20px;
+    font-size: 44px;
+    font-weight: 450 !important;
+}
+.appointmenth4{
+    margin-top:75px !important;
+    font-size: 28px !important;
+    font-weight: 500;
+}
+.appointmentp{
+    margin-top:20px !important;
+    font-size: 16px;
+    padding: 2px;
+    font-weight: 400;
+}
+.appointmentinfo{
+    color: black !important;
+}
+.appointmentinfoh3{
+    margin: 30px 0px 20px;
+}
+/* .appointmentsec{
+    margin:50px;
+} */
+.appointmentform{
+    background-color: rgb(192, 225, 255) ;
+    padding: 30px;
+    border-radius: 10px;
+}
+.appointmentdetails{
+     background-color: rgb(192, 225, 255) ;
+     padding: 30px;
+     border-radius: 10px;
+}
+.appointmentsecp{
+    padding: 9px 0;
+}
+.appointmentbg{
+    background-color: #F4F9FD !important;
+}
+
+@media (max-width:480px) {
+  
+   .background4{
+    background-image: url("../../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: center;
+    background-color: #97d3ef5a;
+    height: auto;
+    background-position:bottom;
+   }
+   .appointmenthead{
+    font-size: 30px;
+    font-weight: 450 !important;
+}
+.appointmenth4{
+    margin-top:30px !important;
+    font-size: 16px !important;
+    font-weight: 500;
+}
+.appointmentp{
+    margin-top:20px !important;
+    font-size: 15px;
+    padding: 2px;
+    font-weight: 400;
+}
+.appointmentform{
+    background-color: rgb(192, 225, 255) ;
+    padding: 30px;
+    border-radius: 10px;
+}
+}

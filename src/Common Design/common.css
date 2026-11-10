@@ -1,0 +1,36 @@
+.nav-button {
+background-color: #003b5c !important;
+color: white !important;
+border-radius: 30px;
+padding: 15px 45px !important;
+text-align: center;
+white-space: nowrap;
+border: none;
+margin: 10px 0px;
+width:100%;
+}
+
+.logos{
+    display: flex !important;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.hospitallogos{
+    padding: 10px;
+    margin-bottom: 20px !important;
+    color: rgb(15, 255, 239) !important;
+
+}
+
+.logos h6{
+    font-size: 15px !important;
+    margin-top: 30px !important;
+    margin-right: 20px;
+
+    
+}
+.logos p{
+     font-size: 12px !important;
+     
+ }

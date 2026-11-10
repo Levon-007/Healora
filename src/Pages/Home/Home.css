@@ -1,0 +1,132 @@
+.banner{
+    height: 750px;
+}
+
+/* .learnmorebtn{
+    color: #003b5c !important;
+    border-radius: 30px !important;
+    padding: 10px 30px !important;
+    text-align: center;
+    border: 2px  #003b5c !important;
+    border-style: double !important;
+white-space: nowrap;
+} */
+
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+h6{
+    margin-top: 30px !important;
+    font-size: 11px !important;
+}
+.header6{
+    font-size: 28px !important;
+    font-weight: 500;
+}
+.homeh4{
+    margin: 15px 0px 5px;
+    font-size: 20px !important; 
+}
+.homep{
+    padding: 10px 0px;
+}
+
+h2{
+    padding: 3px 0px;
+    font-weight: 600 !important;
+    
+}
+span{
+    color: #125CA1!important;
+}
+p{
+    font-size: 15px;
+    text-align: justify;
+    width: 80%;
+}
+.homebox{
+    background-color: #97d3ef5a  !important;
+     /* background-color: #97d3ef5a !important; */
+    border-radius: 10px;
+}
+.homebanner{
+    background-image: url("../../assets/healora_hospital.png");
+    background-repeat: no-repeat;
+    /* background-position:110vh; 
+    background-size: 110vh; */
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px !important;  */
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+}
+
+.background{
+ background-color: #F4F9FD !important;
+}
+.helorabanner{
+    margin: 5px;
+    border-radius: 10px;
+    
+}
+.homeabout{
+    background-color: #51a0e6;
+}
+
+/* .heroabout{
+    background-color: #fff;
+    background-color: #97d3ef5a !important;
+   
+
+} */
+
+.heroaccord{
+    margin: 10px;
+    
+}
+/* .homeabout{
+background: linear-gradient(15deg in oklch, oklch(83.46% 0.1433 189.14) 0.0%, oklch(82.18% 0.1238 197.53) 11.1%, oklch(79.67% 0.1117 207.99) 22.2%, oklch(75.46% 0.1240 217.83) 33.3%, oklch(71.23% 0.1389 228.50) 44.4%, oklch(67.32% 0.1530 240.16) 55.6%, oklch(63.27% 0.1720 248.41) 66.7%, oklch(59.31% 0.1904 254.25) 77.8%, oklch(56.48% 0.2144 263.80) 88.9%, oklch(54.72% 0.2274 272.62) 100.0%);
+} */
+@media  (max-width:480px) {
+     html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    p{
+    width: 100%;
+}
+/* .learnmorebtn{
+    width: 70%;
+    
+} */
+h6{
+    text-align: center;
+
+}
+.btns button{
+    width:100% !important;
+    display: none;
+}
+.homebanner{
+    min-height: 250px;
+    width: 100%;
+}
+.homebox{
+    margin:30px;
+   
+    width:80% !important;
+}
+.homeintro{
+    display: none;
+}
+.homequote{
+    font-size: 15px !important;
+    color: #125CA1;
+    text-shadow: 1px 1px 1px black;
+}
+
+}
